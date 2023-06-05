@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Newake;
+    src: url(Fonts/NewakeFont-Demo.otf);
+}
+h2, h1{
+    font-family: Newake;
+    font-weight: 60;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2em;
+    margin-left: 6em;
+}
+h1{
+    position: absolute;
+    top: 285px;
+    left: 217px;
+    font-size: 96px;
+    display: inline-block;
+    width: 493px;
+    height: 265px;
+    margin-left: 50px;
+
+}
+.headimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1940px;
+    height: 914.64px;
+    object-fit: cover;
+
+}
+.logo{
+    display: inline;
+    background: url(photo/logo.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1em;
+    margin-left: 6em;
+    height: 100vh;
+    width: 100%;
+}
