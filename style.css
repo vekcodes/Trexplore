@@ -14,13 +14,12 @@ h2, h1{
 }
 h1{
     position: absolute;
-    top: 285px;
-    left: 217px;
+    margin-top: 4em;
     font-size: 96px;
     display: inline-block;
     width: 493px;
     height: 265px;
-    margin-left: 50px;
+    margin-left: 4em;
 
 }
 .headimg{
@@ -35,11 +34,19 @@ h1{
 .logo{
     display: inline;
     background: url(photo/logo.png);
-    position: absolute;
     top: 0;
     left: 0;
     margin: 1em;
     margin-left: 6em;
-    height: 100vh;
+    height: 100%;
     width: 100%;
+
+        
+}
+.nav-box{
+    background-color: black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
