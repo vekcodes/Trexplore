@@ -2,6 +2,7 @@
     font-family: Newake;
     src: url(Fonts/NewakeFont-Demo.otf);
 }
+
 *{
     margin: 0px;
     padding: 0px;
@@ -37,7 +38,6 @@
     width: 100%;
     position: absolute;
     z-index: -1;
-
 
 }
 .logo{
@@ -102,4 +102,117 @@ ul li a{
     box-sizing: border-box;
     width: 457px;
     margin-left: 8em;
+}
+
+/* media queries for desktop1 and desktop2 */
+@media only screen and (min-width: 768px) {
+    ul{
+        margin-left:30% ;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    ul{
+        margin-left: 50%;
+    }
+}
+.signupbx {
+    background-color: #ff5737;
+    border-radius: 13px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+    .glass{
+        top: 180px;
+        left: 175px;
+        margin-left: 3em;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    .glass{
+        top: 242px;
+        left: 175px;
+        margin-left: 8em;
+    }
+}
+.glassp{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: absolute;
+    margin-top: 17em;
+    margin-left: 2.2em;
+    stroke: #202445;
+}
+.glassbag {
+    background-color: #ff5737;
+    border-radius: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    /* margin-top: 15em; */
+    width: 196px;
+    margin-left: 1em;
+    /* margin-right: 20px; */
+}
+.glassbag a{
+    text-decoration: none;
+    font-family: Newake;
+    color: #202445;
+    text-align: center;
+    padding: 0px;
+}
+.glassw {
+    background-color: #ff5737;
+    border-radius: 45px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    /* margin-top: 15em; */
+    width: 129px;
+    margin-right: 40px;
+    
+}
+.glassw a{
+    text-decoration: none;
+    font-family: Newake;
+    color: #202445;
+    align-items: center;
+}
+.glasscta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25em;
+    margin-left: 1em;
+    margin-right: 0%;
+}
+.vglass{
+    border-radius: 43px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: linear-gradient( 132.94deg, rgba(255, 255, 255, 0.52) 17.44%, rgba(255, 255, 255, 0.1) );
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 350px;
+    position: absolute;
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 457px;
+    margin-left: 40em;
+    margin-top: 200px;
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    height: 200px;
+    width: 90%;
+    border-radius: 10px;
 }
