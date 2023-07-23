@@ -137,6 +137,10 @@ ul li a{
         left: 175px;
         margin-left: 8em;
     }
+    .vglass{
+        top: 620px;
+        left: 1150px;
+    }
 }
 .glassp{
     font-family: 'Roboto', sans-serif;
@@ -203,8 +207,10 @@ ul li a{
     position: absolute;
     border: 1px solid white;
     width: 457px;
-    top: 620px;
-    left: 1150px;
+    top: 539px;
+    left: 809px;
 }
-    
-  
+/* video{
+    height: 400px;
+    width: auto;
+} */
