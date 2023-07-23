@@ -124,24 +124,6 @@ ul li a{
     align-items: center;
     justify-content: center;
 }
-@media only screen and (min-width: 768px) {
-    .glass{
-        top: 180px;
-        left: 175px;
-        margin-left: 3em;
-    }
-}
-@media only screen and (min-width: 1920px) {
-    .glass{
-        top: 242px;
-        left: 175px;
-        margin-left: 8em;
-    }
-    .vglass{
-        top: 620px;
-        left: 1150px;
-    }
-}
 .glassp{
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -197,7 +179,7 @@ ul li a{
     margin-left: 1em;
     margin-right: 0%;
 }
-.vglass{
+/* .vglass{
     border-radius: 43px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -209,8 +191,80 @@ ul li a{
     width: 457px;
     top: 539px;
     left: 809px;
-}
-/* video{
-    height: 400px;
-    width: auto;
 } */
+video{
+    position: absolute;
+    height: 300px;
+    width: auto;
+    top: 446px;
+    left: 1150px;
+    border-radius: 10px;
+}
+#play-button{
+    position: absolute;
+    top: 750px;
+    left: 1380px;
+}
+@media only screen and (min-width: 690px) {
+    .glass{
+        top: 163px;
+        width: 387px;
+        height: 390px;
+        left: 70px;
+    }
+    .tge{
+        font-size: 70px;
+    }
+    .glassp{
+        margin-top: 13em;
+        margin-left: 1.7em;
+    }
+    .glasscta{
+        margin-top: 19em;
+        margin-left: 0em;
+    }
+    .glassw{
+        margin-right: 15px;
+    }
+    video{
+        position: absolute;
+        height: 210px;
+        width: auto;
+        top: 350px;
+        left: 850px;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    .glass{
+        top: 242px;
+        left: 175px;
+        width: 425px;
+        margin-left: 16em;
+        height: 490px;
+    }
+    .glasscta{
+        margin-top: 26em;
+    }
+    .glassp{
+        margin-top: 18em;
+        margin-left: 2.2em;
+    }
+    .vglass{
+        top: 620px;
+        left: 1150px;
+    }
+    .tge{
+        font-size: 90px;
+        margin-left: 0.45em;
+    }
+    .glassw {
+        margin-right: 32px;
+    }
+    video{
+        position: absolute;
+        height: 300px;
+        width: auto;
+        top: 446px;
+        left: 1150px;
+    }
+}
