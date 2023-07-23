@@ -202,17 +202,9 @@ ul li a{
     height: 350px;
     position: absolute;
     border: 1px solid white;
-    box-sizing: border-box;
     width: 457px;
-    margin-left: 40em;
-    margin-top: 200px;
+    top: 620px;
+    left: 1150px;
 }
-iframe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    height: 200px;
-    width: 90%;
-    border-radius: 10px;
-}
+    
+  
