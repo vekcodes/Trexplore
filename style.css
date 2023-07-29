@@ -494,7 +494,7 @@ video{
     left: 0;
     background: linear-gradient( 95.16deg, rgba(255, 87, 55, 0.6), rgba(152, 193, 217, 0.2) );
     width: 100%;
-    height: 325px;
+    height: 380px;
 }
 .footer_trex{
     font-family: Newake;
@@ -535,6 +535,117 @@ video{
 }
 input[type="email"]{
     padding: 20px;
+}
+.ft_submit{
+    font-family: Newake;
+    background-color: white;
+    cursor: pointer;
+    color: #202445;
+    position: absolute;
+    top: 150px;
+    left: 430px;
+    height: 40px;
+    width: 90px;
+    border: #ffffff;
+    border-radius: 27px;
+}
+.links{
+    position:absolute;
+    display: flex;
+    top: 70px;
+    left:1100px ;
+    margin: 0;
+    padding: 0 30px;
+    list-style-type: none;
+}
+.links a img{
+    margin-left: 10px;
+    list-style-type: none;
+    height: 25px;
+    width: auto;
+}
+.ft_ser{
+    font-size: 26px;
+    font-family: Newake;
+    position: absolute;
+    top: 140px;
+    left: 650px;
+    color: #202445;
+    font-weight: 60;
+}
+.ser_li{
+    padding: 8px;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+}
+.ser_ul{
+    margin: 0;
+    padding: -8px;
+    position: absolute;
+    top: 170px;
+    left: 607px;
+    display: block;
+}
+/* Help footer */
+.ft_h{
+    font-size: 26px;
+    font-family: Newake;
+    position: absolute;
+    top: 140px;
+    left: 650px;
+    color: #202445;
+    font-weight: 60;
+}
+.hel_li{
+    padding: 8px;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+}
+.hel_ul{
+    margin: 0;
+    padding: -8px;
+    position: absolute;
+    top: 170px;
+    left: 607px;
+    display: block;
+}
+.ft_help{
+    position: absolute;
+    left: 250px;
+}
+/* About footer */
+.ft_au{
+    font-size: 26px;
+    font-family: Newake;
+    position: absolute;
+    top: 140px;
+    left: 650px;
+    color: #202445;
+    font-weight: 60;
+}
+.au_li{
+    padding: 8px;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+}
+.au_ul{
+    margin: 0;
+    padding: -8px;
+    position: absolute;
+    top: 170px;
+    left: 607px;
+    display: block;
+}
+.ft_about{
+    position: absolute;
+    left: 500px;
+}
+.Copyright{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    top: 350px;
+    left: 40%;
 }
 
 @media only screen and (min-width: 690px) {
@@ -783,5 +894,16 @@ input[type="email"]{
     }
     .ftdiv{
         top: 2418px;
+    }
+    .ft_side{
+        position: absolute;
+        left: 350px;
+    }
+    .links{
+        position: absolute;
+        left: 1370px;
+    }
+    .links a img{
+        height: 35px;
     }
 }
